@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Upptäck unika personliga produkter med svenska ortnamn. Muggar, t-shirts & klistermärken med din hemort. Snabb leverans i hela Sverige.">
+    <meta name="keywords" content="svenska ortnamn, personliga presenter, ortsnamn produkter, muggar med ortsnamn, t-shirts sverige, klistermärken hemort">
+    <meta name="author" content="Ortnamn Sverige">
+    <meta name="geo.region" content="SE">
+    <meta name="geo.placename" content="Sweden">
+    <meta name="geo.position" content="59.3293;18.0686">
+    <meta name="language" content="Swedish">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Personliga Produkter med Svenska Ortnamn | Ortnamn Sverige">
+    <meta property="og:description" content="Unika gåvor med svenska ortnamn. Från Kiruna till Malmö - alla städer på muggar, t-shirts & klistermärken.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ortnamnsverige.github.io/">
+    <meta property="og:image" content="https://ortnamnsverige.github.io/images/og-image.jpg">
+    <meta property="og:locale" content="sv_SE">
+    <meta property="og:site_name" content="Ortnamn Sverige">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Personliga Produkter med Svenska Ortnamn | Ortnamn Sverige">
+    <meta name="twitter:description" content="Unika gåvor med svenska ortnamn. Från Kiruna till Malmö - alla städer på muggar, t-shirts & klistermärken.">
+    <meta name="twitter:image" content="https://ortnamnsverige.github.io/images/og-image.jpg">
+    <meta name="twitter:site" content="@OrtnamnSverige">
+    
+    <title>Personliga Produkter med Svenska Ortnamn | Ortnamn Sverige</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ortnamnsverige.github.io/" />
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://rlv.zcache.com">
+    
+    <!-- Google Fonts CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ortnamn Sverige",
+      "url": "https://ortnamnsverige.github.io/",
+      "description": "Personliga produkter med svenska ortnamn från hela Sverige",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://ortnamnsverige.github.io/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ortnamn Sverige",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ortnamnsverige.github.io/images/logo.png"
+        }
+      }
+    }
+    </script>
+    
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Variables */
+        :root {
+            --primary-blue: #006aa7;
+            --primary-yellow: #fecc00;
+            --light-blue: #e6f0fa;
+            --dark-blue: #00205b;
+            --text-dark: #333333;
+            --text-light: #666666;
+            --background-light: #f8f9fa;
+            --white: #ffffff;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+        
+        /* Base Styles */
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--background-light);
+            overflow-x: hidden;
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--primary-blue);
+            transition: var(--transition);
+        }
+        
+        a:hover {
+            color: var(--dark-blue);
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        .btn:hover {
+            background-color: var(--dark-blue);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        
+        .btn-secondary {
+            background-color: var(--primary-yellow);
+            color: var(--text-dark);
+        }
+        
+        .btn-secondary:hover {
+            background-color: #e6b800;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .logo h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-blue);
+        }
+        
+        .logo span {
+            color: var(--primary-yellow);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+        
+        nav a {
+            color: var(--text-dark);
+            font-weight: 500;
+            position: relative;
+        }
+        
+        nav a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: var(--primary-blue);
+            transition: var(--transition);
+        }
+        
+        nav a:hover:after {
+            width: 100%;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-dark);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
+            color: var(--white);
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></svg>');
+            opacity: 0.3;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            animation: fadeInUp 0.8s ease;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+        
+        .hero .btn {
+            background-color: var(--primary-yellow);
+            color: var(--text-dark);
+            font-size: 1.1rem;
+            padding: 14px 30px;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+        
+        .hero .btn:hover {
+            background-color: #e6b800;
+        }
+        
+        /* Product Showcase */
+        .product-showcase {
+            padding: 80px 0;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-header h2 {
+            font-size: 2rem;
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+        }
+        
+        .section-header p {
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .product-card {
+            background: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-image {
+            height: 220px;
+            width: 100%;
+            background-color: var(--light-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 15px;
+            transition: var(--transition);
+        }
+        
+        .product-card:hover .product-image img {
+            transform: scale(1.05);
+        }
+        
+        .product-info {
+            padding: 20px;
+        }
+        
+        .product-info h3 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            color: var(--primary-blue);
+        }
+        
+        .product-info p {
+            color: var(--text-light);
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+        
+        /* About Section */
+        .about {
+            background-color: var(--white);
+            padding: 80px 0;
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        
+        .about-image {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .about-text h2 {
+            font-size: 2rem;
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+        }
+        
+        .about-text h3 {
+            color: var(--primary-blue);
+            margin: 25px 0 15px;
+            font-size: 1.5rem;
+        }
+        
+        .about-text p {
+            margin-bottom: 15px;
+            color: var(--text-light);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .feature {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .feature-icon {
+            background-color: var(--light-blue);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .feature-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--primary-blue);
+        }
+        
+        .feature-text h3 {
+            color: var(--primary-blue);
+            margin-bottom: 5px;
+        }
+        
+        /* FAQ Section */
+        .faq {
+            background-color: var(--white);
+            padding: 80px 0;
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-category {
+            margin-bottom: 40px;
+        }
+        
+        .faq-category h3 {
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light-blue);
+        }
+        
+        .faq-item {
+            background-color: var(--white);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+        
+        .faq-item:hover {
+            box-shadow: var(--shadow);
+        }
+        
+        .faq-question {
+            padding: 15px 20px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-question:after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--primary-blue);
+        }
+        
+        .faq-item.active .faq-question:after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 0 20px 20px;
+            max-height: 500px;
+        }
+        
+        .faq-answer p {
+            color: var(--text-light);
+        }
+        
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
+            color: var(--white);
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .cta h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--text-dark);
+            color: var(--white);
+            padding: 40px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background-color: var(--primary-yellow);
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column a {
+            color: #ddd;
+            transition: var(--transition);
+        }
+        
+        .footer-column a:hover {
+            color: var(--primary-yellow);
+        }
+        
+        /* Location search in footer */
+        .location-search {
+            margin-top: 15px;
+        }
+        
+        .location-search input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-family: inherit;
+        }
+        
+        .location-search button {
+            width: 100%;
+            background-color: var(--primary-yellow);
+            color: var(--text-dark);
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .location-search button:hover {
+            background-color: #e6b800;
+        }
+        
+        .quick-links {
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+        
+        .quick-links a {
+            color: var(--primary-yellow);
+            margin-right: 10px;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #444;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        /* Breadcrumb */
+        .breadcrumb {
+            background-color: var(--background-light);
+            padding: 10px 0;
+            font-size: 0.9rem;
+        }
+        
+        .breadcrumb .container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .breadcrumb a {
+            color: var(--primary-blue);
+        }
+        
+        .breadcrumb span {
+            margin: 0 5px;
+            color: var(--text-light);
+        }
+        
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary-blue);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 999;
+            box-shadow: var(--shadow);
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            background-color: var(--dark-blue);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            nav ul {
+                position: fixed;
+                top: 80px;
+                right: -100%;
+                flex-direction: column;
+                background-color: var(--white);
+                width: 80%;
+                max-width: 300px;
+                height: calc(100vh - 80px);
+                padding: 20px;
+                box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+                transition: var(--transition);
+                z-index: 999;
+            }
+            
+            nav.active ul {
+                right: 0;
+            }
+            
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .section-header h2 {
+                font-size: 1.75rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero {
+                padding: 60px 0;
+            }
+            
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+            
+            .section-header h2 {
+                font-size: 1.5rem;
+            }
+            
+            .products-grid {
+                grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            }
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+    </style>
+</head>
+<body>
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="#hero">Hem</a>
+            <span>/</span>
+            <span>Personliga produkter med svenska ortnamn</span>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Ortnamn<span>Sverige</span></h1>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Meny">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Hem</a></li>
+                    <li><a href="#products">Produkter</a></li>
+                    <li><a href="#about">Om Oss</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-content">
+            <h1>Upptäck Personliga Produkter med Svenska Ortnamn</h1>
+            <p>Från Kiruna till Malmö - alla svenska orter på muggar, t-shirts och klistermärken. Visa din stolthet över din hemort med unika anpassade produkter.</p>
+            <a href="#products" class="btn btn-secondary">Utforska Produkter</a>
+        </div>
+    </section>
+    
+    <!-- Product Showcase -->
+    <section class="product-showcase" id="products">
+        <div class="container">
+            <div class="section-header animate">
+                <h2>Våra Personliga Ortnamnsprodukter</h2>
+                <p>Upptäck din stad på våra unika produkter. Svenskt hantverk med personlig touch för att visa din stolthet över din hemort.</p>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1: T-shirts -->
+                <article class="product-card animate">
+                    <a href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_t_shirt-256125367690581896" target="_blank" rel="noopener" aria-label="Personlig t-shirt med svensk stad">
+                        <div class="product-image">
+                            <img src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_t_shirt-r8ccaaafa51fa425d9f0db8bd0004c7ac_jgsdi_1024.jpg?max_dim=325" 
+                                 alt="Personlig t-shirt med svenska ortnamn från hela Sverige" 
+                                 loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Personliga T-shirts</h3>
+                            <p>Bära din stad med stolthet på högkvalitativa t-shirts i många färger.</p>
+                            <span class="btn">Se produkt</span>
+                        </div>
+                    </a>
+                </article>
+                <!-- Product 2: Stickers -->
+                <article class="product-card animate">
+                    <a href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_sticker-256411599474256176" target="_blank" rel="noopener" aria-label="Personliga klistermärken med svenska ortnamn">
+                        <div class="product-image">
+                            <img src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_sticker-r89da9d42ae49400598c0c4f512303fe6_wshutb_1024.jpg?max_dim=325" 
+                                 alt="Personliga klistermärken med svenska ortnamn för alla städer i Sverige" 
+                                 loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Klistermärken</h3>
+                            <p>Vattentäta klistermärken med ditt favoritortnamn för personlig dekoration.</p>
+                            <span class="btn">Se produkt</span>
+                        </div>
+                    </a>
+                </article>
+                <!-- Product 3: Patches -->
+                <article class="product-card animate">
+                    <a href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_patch-256479257606460931" target="_blank" rel="noopener" aria-label="Personliga tygmärken med svenska ortnamn">
+                        <div class="product-image">
+                            <img src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_patch-rf6f079f261a44c38bd5bf9395c2d1e72_q2bzf_1024.jpg?max_dim=325" 
+                                 alt="Personliga tygmärken med svenska ortnamn för kläder och accessoarer" 
+                                 loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Tygmärken</h3>
+                            <p>Hållbara tygmärken med ditt ortnamn som kan sys eller klistras på kläder.</p>
+                            <span class="btn">Se produkt</span>
+                        </div>
+                    </a>
+                </article>
+                <!-- Product 4: Labels -->
+                <article class="product-card animate">
+                    <a href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_labels-256511548126508489" target="_blank" rel="noopener" aria-label="Personliga etiketter med svenska ortnamn">
+                        <div class="product-image">
+                            <img src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_labels-r1a6c68a7705f45b0ac4f328177442cd6_07rig_1024.jpg?max_dim=325" 
+                                 alt="Personliga etiketter med svenska ortnamn för paket och presenter" 
+                                 loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Etiketter</h3>
+                            <p>Personliga etiketter med ditt ortnamn för paket, böcker och personliga ägodelar.</p>
+                            <span class="btn">Se produkt</span>
+                        </div>
+                    </a>
+                </article>
+                <!-- Product 5: Coffee Mugs -->
+                <article class="product-card animate">
+                    <a href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_coffee_mug-256915954656191877" target="_blank" rel="noopener" aria-label="Personliga kaffemuggar med svenska ortnamn">
+                        <div class="product-image">
+                            <img src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_coffee_mug-r9e161a6fdfe04472b59fe54b58b24c1a_x7j1j_8byvr_1024.jpg?max_dim=325" 
+                                 alt="Personliga kaffemuggar med svenska ortnamn från hela Sverige" 
+                                 loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Kaffemuggar</h3>
+                            <p>Hållbara kaffemuggar med ditt ortnamn för morgonkaffet eller som present.</p>
+                            <span class="btn">Se produkt</span>
+                        </div>
+                    </a>
+                </article>
+                <!-- Product 6: Magnets -->
+                <article class="product-card animate">
+                    <a href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_magnet-256493780710193302" target="_blank" rel="noopener" aria-label="Personliga magneter med svenska ortnamn">
+                        <div class="product-image">
+                            <img src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_magnet-rfc522ce066614dffb5f00491ec31ddc7_x7j3d_8byvr_1024.jpg?max_dim=325" 
+                                 alt="Personliga magneter med svenska ortnamn för kylskåp och whiteboards" 
+                                 loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Magneter</h3>
+                            <p>Starka magneter med ditt ortnamn för att dekorera ditt kylskåp eller whiteboard.</p>
+                            <span class="btn">Se produkt</span>
+                        </div>
+                    </a>
+                </article>
+                <!-- Product 7: Buttons -->
+                <article class="product-card animate">
+                    <a href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_button-256422566285895181" target="_blank" rel="noopener" aria-label="Personliga knappar med svenska ortnamn">
+                        <div class="product-image">
+                            <img src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_button-r3d0e724486c74828b81103402c64a520_ix7sjm_1024.jpg?max_dim=325" 
+                                 alt="Personliga knappar med svenska ortnamn som accessoarer eller samling" 
+                                 loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Knappar</h3>
+                            <p>Stilrena knappar med ditt ortnamn som accessoarer eller till samlingar.</p>
+                            <span class="btn">Se produkt</span>
+                        </div>
+                    </a>
+                </article>
+                <!-- Product 8: Keychains -->
+                <article class="product-card animate">
+                    <a href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_keychain-256297828479092102" target="_blank" rel="noopener" aria-label="Personliga nyckelringar med svenska ortnamn">
+                        <div class="product-image">
+                            <img src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_keychain-rb657107b99e64f8492ab1a682e2d9a67_c01k3_1024.jpg?max_dim=325" 
+                                 alt="Personliga nyckelringar med svenska ortnamn från hela Sverige" 
+                                 loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Nyckelringar</h3>
+                            <p>Hållbara nyckelringar med ditt ortnamn som praktisk accessoar och minne.</p>
+                            <span class="btn">Se produkt</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header animate">
+                <h2>Om Ortnamn Sverige</h2>
+                <p>Vi är passionerade för att bevara och fira Sveriges rika geografiska kultur genom personliga produkter</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Sveriges landskap med ortnamn" 
+                         loading="lazy">
+                </div>
+                <div class="about-text">
+                    <h3>Vår Historia</h3>
+                    <p>Ortnamn Sverige startades med en enkel vision: att hjälpa svenskar att visa sin stolthet över sina hemorter genom unika personliga produkter. Vi insåg att varje ort i Sverige har en egen historia och karaktär som förtjänar att firas.</p>
+                    
+                    <h3>Vårt Uppdrag</h3>
+                    <p>Genom våra produkter vill vi bevara den svenska ortnamnstraditionen och göra den tillgänglig för alla. Från de minsta byarna till de största städerna - varje plats har en plats i vårt hjärta och i vårt sortiment.</p>
+                    
+                    <h3>Hållbarhet</h3>
+                    <p>Vi strävar efter att använda hållbara material och etiska produktionsmetoder. Våra produkter är designade för att hålla länge och kunna älskas i generationer.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Unika Ortnamn</h3>
+                                <p>Över 1000 svenska orter att välja mellan, från de största städerna till de minsta byarna.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7zm1-11h-2v3H8v2h3v3h2v-3h3v-2h-3V8z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Historiskt Värde</h3>
+                                <p>Våra ortnamn har ofta djupa historiska rötter som berättar om Sveriges kultur.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Personlig Touch</h3>
+                                <p>Varje produkt är anpassad för att ge dig en personlig upplevelse med din favoritort.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header animate">
+                <h2>Vanliga Frågor</h2>
+                <p>Hitta svar på de vanligaste frågorna om våra produkter och tjänster</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-category">
+                    <h3>Produkter och Beställning</h3>
+                    <div class="faq-item">
+                        <div class="faq-question">Vilka orter kan jag välja mellan?</div>
+                        <div class="faq-answer">
+                            <p>Vi har över 1000 svenska orter i vårt sortiment, från de största städerna som Stockholm och Göteborg till mindre byar och orter. Om du inte hittar din ort i listan, kontakta oss så hjälper vi dig!</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Hur lång är leveranstiden?</div>
+                        <div class="faq-answer">
+                            <p>Vanligtvis skickas dina produkter inom 3-5 arbetsdagar. Leveranstiden är sedan 2-4 arbetsdagar beroende på var i Sverige du bor. Totalt kan du räkna med 5-9 arbetsdagar från beställning till leverans.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Kan jag returnera en produkt?</div>
+                        <div class="faq-answer">
+                            <p>Ja, vi erbjuder 30 dagars öppet köp. Om du inte är nöjd med din produkt kan du returnera den i obrukat skick för full återbetalning. Kontakta vår kundtjänst för returinstruktioner.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-category">
+                    <h3>Ortnamn och Historia</h3>
+                    <div class="faq-item">
+                        <div class="faq-question">Vad betyder svenska ortnamn?</div>
+                        <div class="faq-answer">
+                            <p>Svenska ortnamn har ofta intressanta historiska betydelser. Många namn härstammar från vikingatiden eller medeltiden och beskriver ofta naturen i området, till exempel "-berg" (berg), "-holm" (ö) eller "-by" (by).</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Hur forskar ni om ortnamn?</div>
+                        <div class="faq-answer">
+                            <p>Vi samarbetar med ortnamnsforskare och använder officiella källor som Svenskt ortnamnslexikon och Riksantikvarieämbetets arkiv för att säkerställa att alla ortnamn vi använder är korrekta och historiskt verifierade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-category">
+                    <h3>Material och Kvalitet</h3>
+                    <div class="faq-item">
+                        <div class="faq-question">Vilka material använder ni?</div>
+                        <div class="faq-answer">
+                            <p>Vi använder endast högkvalitativa material som är hållbara och miljövänliga. Våra t-shirts är gjorda av 100% ekologisk bomull, våra muggar är keramik av högsta kvalitet, och våra klistermärken är vattentäta och UV-resistenta.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Hur sköter jag produkterna bäst?</div>
+                        <div class="faq-answer">
+                            <p>Följ alltid skötselanvisningarna som medföljer varje produkt. Generellt sett rekommenderar vi att tvätta t-shirts och tygprodukter i 40°C, undvika blekmedel, och låta produkterna lufttorka för längsta hållbarhet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Upptäck Din Stad Idag</h2>
+            <p>Sök efter din hemort eller favoritplats i Sverige och skapa din personliga produkt med svensk kärlek och hantverk.</p>
+            <a href="#products" class="btn btn-secondary">Börja Utforska</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ortnamn Sverige</h3>
+                    <p>Vi är dedikerade till att bevara och fira den rika geografiska kulturen i Sverige genom personliga produkter med svenska ortnamn.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Sök Din Ort</h3>
+                    <div class="location-search">
+                        <input type="text" id="location-input" placeholder="Skriv din ort här..." aria-label="Sök ort">
+                        <button type="button" id="search-btn">Sök Produkter</button>
+                    </div>
+                    <div class="quick-links">
+                        <span>Snabblänkar:</span>
+                        <a href="#" onclick="quickSearch('Stockholm')">Stockholm</a>
+                        <a href="#" onclick="quickSearch('Göteborg')">Göteborg</a>
+                        <a href="#" onclick="quickSearch('Malmö')">Malmö</a>
+                        <a href="#" onclick="quickSearch('Uppsala')">Uppsala</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Populära Regioner</h3>
+                    <ul>
+                        <li><a href="#" onclick="quickSearch('Skåne')">Skåne</a></li>
+                        <li><a href="#" onclick="quickSearch('Västergötland')">Västergötland</a></li>
+                        <li><a href="#" onclick="quickSearch('Småland')">Småland</a></li>
+                        <li><a href="#" onclick="quickSearch('Dalarna')">Dalarna</a></li>
+                        <li><a href="#" onclick="quickSearch('Norrland')">Norrland</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ortnamn Sverige. Alla rättigheter förbehållna.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" aria-label="Tillbaka till toppen">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 14l5-5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const nav = document.querySelector('nav');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                this.innerHTML = nav.classList.contains('active') ? 
+                    `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>` :
+                    `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>`;
+            });
+            
+            // Close mobile menu when clicking a link
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                    mobileMenuBtn.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>`;
+                });
+            });
+            
+            // FAQ functionality
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                question.addEventListener('click', () => {
+                    // Close other items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item && otherItem.classList.contains('active')) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                    // Toggle current item
+                    item.classList.toggle('active');
+                });
+            });
+            
+            // Back to top button
+            const backToTopBtn = document.querySelector('.back-to-top');
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    backToTopBtn.classList.add('visible');
+                } else {
+                    backToTopBtn.classList.remove('visible');
+                }
+            });
+            
+            backToTopBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Location search functionality
+            const locationInput = document.getElementById('location-input');
+            const searchBtn = document.getElementById('search-btn');
+            
+            function searchLocation() {
+                const searchTerm = locationInput.value.trim().toLowerCase();
+                if (searchTerm === '') return;
+                
+                // Highlight matching products
+                document.querySelectorAll('.product-card').forEach(card => {
+                    const title = card.querySelector('h3').textContent.toLowerCase();
+                    const description = card.querySelector('p').textContent.toLowerCase();
+                    if (title.includes(searchTerm) || description.includes(searchTerm)) {
+                        card.style.border = '2px solid var(--primary-yellow)';
+                        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    } else {
+                        card.style.border = 'none';
+                    }
+                });
+                
+                // Clear search after 3 seconds
+                setTimeout(() => {
+                    document.querySelectorAll('.product-card').forEach(card => {
+                        card.style.border = 'none';
+                    });
+                }, 3000);
+            }
+            
+            searchBtn.addEventListener('click', searchLocation);
+            locationInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    searchLocation();
+                }
+            });
+            
+            // Quick search function
+            window.quickSearch = function(term) {
+                locationInput.value = term;
+                searchLocation();
+            };
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    if (href === '#' || href === '#hero') return;
+                    
+                    if (href !== '#' && document.querySelector(href)) {
+                        e.preventDefault();
+                        document.querySelector(href).scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Animation on scroll
+            const animateElements = document.querySelectorAll('.animate');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            animateElements.forEach(element => {
+                element.style.opacity = 0;
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(element);
+            });
+        });
+    </script>
+    
+    <!-- Schema.org Structured Data for Products -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "name": "Personliga T-shirts med svenska ortnamn",
+          "description": "Personlig t-shirt med valfritt svenskt ortnamn från hela Sverige",
+          "image": "https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_t_shirt-r8ccaaafa51fa425d9f0db8bd0004c7ac_jgsdi_1024.jpg",
+          "url": "https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_t_shirt-256125367690581896"
+        },
+        {
+          "@type": "Product",
+          "name": "Personliga Klistermärken med svenska ortnamn",
+          "description": "Vattentäta klistermärken med valfritt svenskt ortnamn för personlig dekoration",
+          "image": "https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_sticker-r89da9d42ae49400598c0c4f512303fe6_wshutb_1024.jpg",
+          "url": "https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_sticker-256411599474256176"
+        },
+        {
+          "@type": "Product",
+          "name": "Personliga Tygmärken med svenska ortnamn",
+          "description": "Hållbara tygmärken med valfritt svenskt ortnamn för kläder och accessoarer",
+          "image": "https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_patch-rf6f079f261a44c38bd5bf9395c2d1e72_q2bzf_1024.jpg",
+          "url": "https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_patch-256479257606460931"
+        }
+      ]
+    }
+    </script>
+</body>
+</html>
