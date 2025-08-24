@@ -296,13 +296,13 @@ body {
 </nav>
 <section class="product-detail">
 <div class="product-image-container">
-<img alt="Personligt ortnamn Sverige runt design T-shirt" loading="lazy" src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_t_shirt-r8ccaaafa51fa425d9f0db8bd0004c7ac_jgsdi_1024.jpg?max_dim=800&amp;rlvnet=1" style="max-width: 100%; height: auto; border-radius: 8px; transition: transform 0.3s ease;"/>
+<img alt="Personligt ortnamn Sverige runt design T-shirt" loading="lazy" src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_t_shirt-rbdf61efb41a54035bf7c1cdfd87186c7_jgsdi_1024.jpg?max_dim=800" style="max-width: 100%; height: auto; border-radius: 8px; transition: transform 0.3s ease;"/>
 </div>
 <div class="product-info">
 <h1>T-shirt med personligt ortnamn Sverige runt design</h1>
 <p class="product-description">Visa din kärlek till Sverige med denna unika T-shirt med personligt ortnamn design. Perfekt för att visa upp din svenska stolthet eller som en present till någon som älskar Sverige.</p>
 <p class="price">€14.94</p>
-<a class="btn btn-primary" href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_t_shirt-256125367690581896" rel="nofollow" target="_blank">Köp nu</a>
+<a class="btn btn-primary" href="https://www.zazzle.com/personligt_ortnamn_sverige_runt_design_t_shirt-256010525976269165" rel="nofollow" target="_blank">Köp nu</a>
 </div>
 </section>
 <section class="related-products">
@@ -310,7 +310,7 @@ body {
 <div class="related-grid">
 <div class="related-card">
 <div class="related-image">
-<img alt="Personligt ortnamn Sverige runt design Kaffemugg" loading="lazy" src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_coffee_mug-r9e161a6fdfe04472b59fe54b58b24c1a_x7j1j_8byvr_1024.jpg?max_dim=800&amp;rlvnet=1" style="max-width: 100%; height: auto; border-radius: 8px; transition: transform 0.3s ease;"/>
+<img alt="Personligt ortnamn Sverige runt design Kaffemugg" loading="lazy" src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_coffee_mug-rc7402415c0c544fd871e6d7bcedf4860_x7j1j_8byvr_1024.jpg?max_dim=800" style="max-width: 100%; height: auto; border-radius: 8px; transition: transform 0.3s ease;"/>
 </div>
 <h3>Kaffemugg</h3>
 <p class="price">€12.87</p>
@@ -318,7 +318,7 @@ body {
 </div>
 <div class="related-card">
 <div class="related-image">
-<img alt="Personligt ortnamn Sverige runt design Klistermärke" loading="lazy" src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_sticker-r89da9d42ae49400598c0c4f512303fe6_wshutb_1024.jpg?rlvnet=1&amp;max_dim=800" style="max-width: 100%; height: auto; border-radius: 8px; transition: transform 0.3s ease;"/>
+<img alt="Personligt ortnamn Sverige runt design Klistermärke" loading="lazy" src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_sticker-r434466ac027049d9b136f8312c11d25d_wshutb_1024.jpg?rlvnet=1&amp;max_dim=800" style="max-width: 100%; height: auto; border-radius: 8px; transition: transform 0.3s ease;"/>
 </div>
 <h3>Klistermärke</h3>
 <p class="price">€2.78</p>
@@ -326,7 +326,7 @@ body {
 </div>
 <div class="related-card">
 <div class="related-image">
-<img alt="Personligt ortnamn Sverige runt design Nyckelring" loading="lazy" src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_keychain-rb657107b99e64f8492ab1a682e2d9a67_c01k3_1024.jpg?rlvnet=1&amp;max_dim=800" style="max-width: 100%; height: auto; border-radius: 8px; transition: transform 0.3s ease;"/>
+<img alt="Personligt ortnamn Sverige runt design Nyckelring" loading="lazy" src="https://rlv.zcache.com/personligt_ortnamn_sverige_runt_design_keychain-re3501622e8764396924897811d0bc01d_c01k3_1024.jpg?rlvnet=1&amp;max_dim=800" style="max-width: 100%; height: auto; border-radius: 8px; transition: transform 0.3s ease;"/>
 </div>
 <h3>Nyckelring</h3>
 <p class="price">€5.75</p>
@@ -408,6 +408,63 @@ document.addEventListener('DOMContentLoaded', function() {
       navList.classList.toggle('active');
     });
   }
+});
+</script><script>
+// منع ظهور النافذة المنبثقة عند النقر على زر الصفحة الرئيسية
+document.addEventListener('DOMContentLoaded', function() {
+  const homeLink = document.querySelector('a[href="index.html"]');
+  if (homeLink) {
+    homeLink.addEventListener('click', function(e) {
+      // منع السلوك الافتراضي للرابط
+      e.preventDefault();
+      
+      // الانتقال إلى الصفحة الرئيسية بدون نافذة منبثقة
+      window.location.href = 'index.html';
+    });
+  }
+  
+  // إغلاق القائمة المنسدلة في الأجهزة المحمولة عند النقر على أي رابط
+  const navLinks = document.querySelectorAll('.main-nav a');
+  const navList = document.querySelector('.nav-list');
+  
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (navList && navList.classList.contains('active')) {
+        navList.classList.remove('active');
+      }
+    });
+  });
+});
+</script><script>
+// منع فتح الروابط الداخلية في نافذة جديدة
+document.addEventListener('DOMContentLoaded', function() {
+  // جميع الروابط التي تشير إلى صفحات داخلية
+  const internalLinks = document.querySelectorAll('a[href$=".html"]');
+  
+  internalLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      // التأكد من أن الرابط ليس لصفحة خارجية
+      if (!this.href.includes('http') || this.href.includes(window.location.hostname)) {
+        // منع السلوك الافتراضي
+        e.preventDefault();
+        
+        // الانتقال إلى الصفحة في نفس النافذة
+        window.location.href = this.href;
+      }
+    });
+  });
+  
+  // إغلاق القائمة المنسدلة في الأجهزة المحمولة عند النقر على أي رابط
+  const navLinks = document.querySelectorAll('.main-nav a');
+  const navList = document.querySelector('.nav-list');
+  
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (navList && navList.classList.contains('active')) {
+        navList.classList.remove('active');
+      }
+    });
+  });
 });
 </script></body>
 </html>
