@@ -569,3 +569,24 @@ p {
         grid-template-columns: 1fr;
     }
 }
+
+/* --- Fix Hamburger Menu --- */
+.nav-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background: #333;
+  border-radius: 3px;
+}
+
+/* --- تحسين spacing للبطاقات --- */
+.product-card {
+  margin-bottom: 30px;
+}
