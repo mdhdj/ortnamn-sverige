@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="sv">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   De Gömda Historierna Bakom Dina Favoritortnamn: Mer Än Bara en Punk på Kartan | Blogg | Ortnamn Sverige
+  </title>
+  <meta content="Upptäck de fascinerande etymologierna och historierna bakom svenska ortnamn. Lär dig vad namn som Stockholm, Göteborg och Uppsala egentligen betyder och hur de formades av geografi och historia." name="description"/>
+  <link href="assets/css/style.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230051BA'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='%23FECC02'>🇸🇪</text></svg>" rel="icon" type="image/svg+xml"/>
+  <style>
+   :root {
+  --primary-blue: #0051BA;
+  --primary-yellow: #FECC02;
+  --dark-blue: #0A2463;
+  --light-gray: #F8F9FA;
+  --text-dark: #212529;
+  --border-color: #E9ECEF;
+}
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.modern-header {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+}
+.logo a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+.logo-icon {
+  margin-right: 10px;
+  font-size: 1.8rem;
+}
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+.main-nav a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.main-nav a:hover, .main-nav a.active {
+  color: var(--primary-blue);
+}
+.blog-post {
+  margin: 40px 0;
+}
+.blog-post-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.blog-post-header h1 {
+  font-size: 2.5rem;
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+}
+.blog-post-header .post-meta {
+  color: #666;
+  font-style: italic;
+}
+.blog-post-content {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+.blog-post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 30px 0;
+}
+.blog-post-content h2 {
+  color: var(--primary-blue);
+  margin: 40px 0 20px;
+}
+.blog-post-content h3 {
+  color: var(--dark-blue);
+  margin: 30px 0 15px;
+}
+.blog-post-content p {
+  margin-bottom: 20px;
+}
+blockquote {
+  border-left: 4px solid var(--primary-blue);
+  padding: 10px 20px;
+  margin: 30px 0;
+  background: var(--light-gray);
+  font-style: italic;
+}
+.back-to-blog {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 20px;
+  background: var(--primary-blue);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.back-to-blog:hover {
+  background: var(--dark-blue);
+}
+.modern-footer {
+  background: var(--dark-blue);
+  color: white;
+  padding: 60px 0 20px;
+  margin-top: 80px;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.footer-section h3, .footer-section h4 {
+  margin-bottom: 20px;
+  color: var(--primary-yellow);
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+.footer-section a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-section a:hover {
+  color: var(--primary-yellow);
+}
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+  text-align: center;
+  color: #aaa;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--primary-blue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+  z-index: 1000;
+}
+.scroll-to-top:hover {
+  background: var(--dark-blue);
+}
+.social-links a {
+  color: white;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+.social-links a:hover {
+  color: var(--primary-yellow);
+}
+@media (max-width: 768px) {
+  .blog-post-content {
+    padding: 20px;
+  }
+  .header-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .main-nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .nav-list {
+    display: none;
+  }
+  .nav-list.active {
+    display: flex;
+  }
+}
+  </style>
+  <link href="https://mdhdj.github.io/ortnamn-sverige/" rel="canonical"/>
+  <script type="application/ld+json">
+   {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://mdhdj.github.io/ortnamn-sverige/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blogg",
+          "item": "https://mdhdj.github.io/ortnamn-sverige/blog.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "De Gömda Historierna Bakom Dina Favoritortnamn",
+          "item": "https://mdhdj.github.io/ortnamn-sverige/blog-post-1.html"
+        }
+      ]
+    }
+  </script>
+  <meta content="De Gömda Historierna Bakom Dina Favoritortnamn: Mer Än Bara en Punk på Kartan | Blogg | Ortnamn Sverige" property="og:title"/>
+  <meta content="Upptäck de fascinerande etymologierna och historierna bakom svenska ortnamn. Lär dig vad namn som Stockholm, Göteborg och Uppsala egentligen betyder och hur de formades av geografi och historia." property="og:description"/>
+  <meta content="https://mdhdj.github.io/ortnamn-sverige/blog-post-1.html" property="og:url"/>
+  <meta content="article" property="og:type"/>
+ </head>
+ <body>
+  <header class="modern-header">
+   <div class="container">
+    <div class="header-content">
+     <div class="logo">
+      <a href="index.html">
+       <span class="logo-icon">
+        🇸🇪
+       </span>
+       <span class="logo-text">
+        Ortnamn Sverige
+       </span>
+      </a>
+     </div>
+     <nav class="main-nav">
+      <ul class="nav-list">
+       <li>
+        <a href="index.html">
+         Hem
+        </a>
+       </li>
+       <li>
+        <a href="about.html">
+         Om oss
+        </a>
+       </li>
+       <li>
+        <a href="blog.html">
+         Blogg
+        </a>
+       </li>
+       <li>
+        <a href="policy.html">
+         Integritetspolicy
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+   </div>
+  </header>
+  <main class="main">
+   <div class="container">
+    <article class="blog-post">
+     <header class="blog-post-header">
+      <h1>
+       De Gömda Historierna Bakom Dina Favoritortnamn: Mer Än Bara en Punk på Kartan
+      </h1>
+      <p class="post-meta">
+       Publicerad: 2025-05-15 | Av: Ortnamn Sverige Team
+      </p>
+     </header>
+     <div class="blog-post-content">
+      <p>
+       <strong>
+        Inledning: En Värld Utöver Kartan
+       </strong>
+      </p>
+      <p>
+       Varje gång du ser ett svenskt ortnamn – på en vägskylt, en karta eller kanske på en av våra produkter – ser du mycket mer än bara ett namn. Du ser en berättelse. Du ser geografi, historia, kultur och ibland, en liten dos humor från våra förfäder. Svenska ortnamn är som små tidskapslar, begravda i landskapet, som väntar på att upptäckas. I det här inlägget bjuder vi dig på en resa genom tiden och landskapet för att avslöja de gömda historierna bakom några av Sveriges mest ikoniska och älskade ortnamn. Oavsett om du är nyfiken på din hemort eller bara fascinerad av språk och historia, hoppas vi att du hittar något som väcker din nyfikenhet.
+      </p>
+      <p>
+       <strong>
+        Varför Ortnamn Betyder Något
+       </strong>
+      </p>
+      <p>
+       Ortnamn är inte slumpmässiga. De är praktiska, ofta skapade av de första människorna som bosatte sig på en plats. De fungerade som enkla GPS:er – de beskrev platsen för andra. Var det en säker hamn? En plats med gott om vatten? En kulle som var lätt att försvara? Genom att förstå vad ett ortnamn betyder, får vi en unik inblick i hur människor levde, tänkte och interagerade med sin omgivning för hundratals, ibland tusentals, år sedan. Det är en direkt länk till vårt förflutna.
+      </p>
+      <h2>
+       Stockholm: "Stock" och "Holme" – En Stad Född ur Nödvändighet
+      </h2>
+      <p>
+       Låt oss börja med huvudstaden. Stockholm är ett namn som alla känner till, men vad betyder det egentligen? Namnet är en sammansättning av två fornnordiska ord: "stock" och "holme".
+      </p>
+      <p>
+       <strong>
+        "Stock"
+       </strong>
+       : Detta ord syftar troligen inte på ett trädstock, som många tror, utan på en "stock" i betydelsen en påle eller en palissad. Det var vanligt att bygga försvarsverk av stockar.
+      </p>
+      <p>
+       <strong>
+        "Holme"
+       </strong>
+       : Detta ord betyder en liten ö eller en holme, ofta en som är omgiven av vatten eller kärr.
+      </p>
+      <p>
+       Så, "Stockholm" kan tolkas som "den stockomgärdade holmen". Detta är en direkt hänvisning till den strategiska platsen där staden grundades – på en liten ö (Stadsholmen) som var lätt att försvara med hjälp av palissader. Namnet berättar alltså en historia om en plats som valdes för dess säkerhet och strategiska läge mellan Mälaren och Östersjön. Det är ett namn som speglar en tid då försvar var avgörande.
+      </p>
+      <h2>
+       Göteborg: En "Borg" vid "Göta Älv"
+      </h2>
+      <p>
+       Göteborg, Sveriges andra stad till storlek, har ett namn som är lika praktiskt som det är geografiskt.
+      </p>
+      <p>
+       <strong>
+        "Göta"
+       </strong>
+       : Detta hänvisar till Göta Älv, den stora flod som mynnar ut i Kattegatt just där staden ligger. "Göta" syftar på det folk (götar) som bodde i det området.
+      </p>
+      <p>
+       <strong>
+        "Borg"
+       </strong>
+       : Detta ord betyder fästning eller stad. Det var ett vanligt suffix för städer som grundades med ett försvarar syfte.
+      </p>
+      <p>
+       Alltså betyder "Göteborg" helt enkelt "borgen vid Göta Älv". Namnet är en tydlig indikation på stadens ursprungliga syfte: att vara en viktig handels- och försvarsplats vid mynningen av en av Sveriges viktigaste vattenvägar. Det är ett namn som är rotat i geografin och dess strategiska betydelse.
+      </p>
+      <h2>
+       Uppsala: En "Sal" Uppför en "Ås"
+      </h2>
+      <p>
+       Uppsala, med sin rika historia som Sveriges gamla religiösa och kungliga centrum, har ett namn som är både poetiskt och beskrivande.
+      </p>
+      <p>
+       <strong>
+        "Upp"
+       </strong>
+       : Detta är en gammal form av "upp", som indikerar riktning eller position.
+      </p>
+      <p>
+       <strong>
+        "Sala"
+       </strong>
+       : Detta ord är nyckeln. "Sala" eller "sal" betyder en stor byggnad, ofta en kunglig hall eller ett tempel. I fornnordisk tid var en "sal" en central plats för gemenskap, makt och ritualer.
+      </p>
+      <p>
+       Namnet "Uppsala" syftar alltså på "salen som ligger uppe". Men uppe var? Svaret ligger i landskapet. Den gamla Uppsala (nuvarande Gamla Uppsala) ligger på en hög ås, en moränkulle som sticker upp ur den omgivande slätten. Så, "Uppsala" betyder "salen uppe på åsen". Detta namn förmedlar en känsla av höghet, makt och helighet – en perfekt beskrivning av platsen där Sveriges tidigaste kungar och hövdingar hade sin maktbas och där de stora hedniska templen en gång stod.
+      </p>
+      <h2>
+       Malmö: "Sandbank" vid "Havet"
+      </h2>
+      <p>
+       Malmö, Sveriges tredje största stad, har ett namn med danska rötter, vilket speglar dess historia som en del av Danmark.
+      </p>
+      <p>
+       <strong>
+        "Mal"
+       </strong>
+       : Detta ord kommer från danskan och betyder "sandbank" eller "grusig mark".
+      </p>
+      <p>
+       <strong>
+        "Hö"
+       </strong>
+       : Detta är en gammal form av ordet "hög" eller "höj", som syftar på en kulle eller en upphöjd plats.
+      </p>
+      <p>
+       Så, "Malmö" betyder ungefär "den upphöjda sandbanken". Detta är en perfekt beskrivning av stadens ursprungliga läge – på en sandig kulle vid Öresund, vilket gjorde den till en naturlig plats för bosättning och försvar. Namnet är en enkel, men effektiv, geografisk beskrivning av platsens fysiska egenskaper.
+      </p>
+      <h2>
+       Kiruna: Ett Namn från Samiskan
+      </h2>
+      <p>
+       Resan norrut tar oss till Kiruna, en stad som är världskänd för sin järnmalmsgruva. Dess namn har sina rötter i det samiska språket, vilket påminner oss om Sveriges mångkulturella historia.
+      </p>
+      <p>
+       <strong>
+        "Giron"
+       </strong>
+       : Det samiska namnet för Kiruna är "Giron", vilket betyder "ptarmigan" – en fjällripa, en fågel som är vanlig i fjälltrakterna.
+      </p>
+      <p>
+       Det svenska namnet "Kiruna" är en anpassning av detta samiska ord. Det är ett vackert exempel på hur ortnamn kan bevara och hedra det ursprungliga språket och kulturen i ett område. Det berättar en historia om landet före industrin, en historia om naturen och de människor som levde i harmoni med den.
+      </p>
+      <h2>
+       Lilla och Roliga Namn: En Glimt av Humor
+      </h2>
+      <p>
+       Inte alla svenska ortnamn är storslagna eller historiskt djupa. Många är rakt på sak, ibland till och med lite roliga. Tänk på namn som:
+      </p>
+      <ul>
+       <li>
+        <strong>
+         Fjällbacka:
+        </strong>
+        En "backe" vid "fjällen".
+       </li>
+       <li>
+        <strong>
+         Helsingborg:
+        </strong>
+        "Borgen" vid "Helsing" (en gammal folkgrupp eller plats).
+       </li>
+       <li>
+        <strong>
+         Västerås:
+        </strong>
+        "Ån" i "väster".
+       </li>
+       <li>
+        <strong>
+         Å:
+        </strong>
+        Ja, det finns faktiskt en by som heter bara "Å" i norra Sverige! Det betyder helt enkelt "å" eller "bäck".
+       </li>
+      </ul>
+      <p>
+       Dessa namn visar på den praktiska och ibland enkla logik som låg bakom namngivningen. De är en påminnelse om att historien inte alltid är allvarlig – ibland är den bara... praktisk.
+      </p>
+      <h2>
+       Hur du Kan Utforska Dina Egna Favoritortnamn
+      </h2>
+      <p>
+       Vill du veta mer om din egen favoritort? Här är några tips:
+      </p>
+      <ol>
+       <li>
+        <strong>
+         Sök på nätet:
+        </strong>
+        En snabb sökning på "[Ortnamn] etymologi" eller "[Ortnamn] namnbetydelse" ger ofta fantastiska resultat.
+       </li>
+       <li>
+        <strong>
+         Besök lokala museer:
+        </strong>
+        Många lokala museum har utställningar eller information om ortens historia och namn.
+       </li>
+       <li>
+        <strong>
+         Prata med gamla innevånare:
+        </strong>
+        De har ofta de bästa historierna och myterna kring namnet.
+       </li>
+      </ol>
+      <h2>
+       Slutsats: Bär Historien Med Dig
+      </h2>
+      <p>
+       Svenska ortnamn är mycket mer än bara ord på en karta. De är levande berättelser om vårt lands historia, geografi och kultur. När du väljer en produkt från Ortnamn Sverige med ditt favoritortnamn, väljer du inte bara en vacker design – du väljer att bära en del av denna rika historia med dig. Du väljer att hylla platsens unika identitet och dess plats i det svenska landskapet.
+      </p>
+      <p>
+       Så nästa gång du ser ett ortnamn, ta en stund att fundera på dess betydelse. Du kanske upptäcker en hel värld av historia som du aldrig visste fanns där.
+      </p>
+      <p>
+       <em>
+        Vilket ortnamn fascinerar dig mest? Dela med dig i kommentarerna nedan!
+       </em>
+      </p>
+      <a class="back-to-blog" href="blog.html">
+       Tillbaka till Bloggen
+      </a>
+     </div>
+    </article>
+   </div>
+  </main>
+  <footer class="modern-footer">
+   <div class="container">
+    <div class="footer-content">
+     <div class="footer-logo">
+      <p>
+       © 2025 Ortnamn Sverige. Alla rättigheter förbehållna.
+      </p>
+     </div>
+     <div class="footer-section">
+      <h4>
+       Snabblänkar
+      </h4>
+      <ul>
+       <li>
+        <a href="index.html">
+         Hem
+        </a>
+       </li>
+       <li>
+        <a href="about.html">
+         Om oss
+        </a>
+       </li>
+       <li>
+        <a href="blog.html">
+         Blogg
+        </a>
+       </li>
+       <li>
+        <a href="policy.html">
+         Integritetspolicy
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footer-section">
+      <h4>
+       Våra Produkter
+      </h4>
+      <ul>
+       <li>
+        <a href="tshirt.html">
+         T-shirt
+        </a>
+       </li>
+       <li>
+        <a href="mug.html">
+         Kaffemugg
+        </a>
+       </li>
+       <li>
+        <a href="sticker.html">
+         Klistermärke
+        </a>
+       </li>
+       <li>
+        <a href="button.html">
+         Pin-knapp
+        </a>
+       </li>
+       <li>
+        <a href="keychain.html">
+         Nyckelring
+        </a>
+       </li>
+       <li>
+        <a href="patch.html">
+         Tyglapp
+        </a>
+       </li>
+       <li>
+        <a href="magnet.html">
+         Magnet
+        </a>
+       </li>
+       <li>
+        <a href="labels.html">
+         Etiketter
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="social-links">
+      <a aria-label="Instagram" href="https://example.com">
+       <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <rect height="20" rx="5" ry="5" width="20" x="2" y="2">
+        </rect>
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z">
+        </path>
+        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5">
+        </line>
+       </svg>
+      </a>
+      <a aria-label="YouTube" href="https://example.com">
+       <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+        </path>
+        <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02">
+        </polygon>
+       </svg>
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <button aria-label="Scrolla till toppen" class="scroll-to-top" id="scrollToTop">
+   <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <polyline points="18 15 12 9 6 15">
+    </polyline>
+   </svg>
+  </button>
+  <script defer="" src="assets/js/main.js">
+  </script>
+  <script>
+   // زر التمرير للأعلى
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollToTopBtn = document.getElementById('scrollToTop');
+  if (scrollToTopBtn) {
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        scrollToTopBtn.style.display = 'flex';
+      } else {
+        scrollToTopBtn.style.display = 'none';
+      }
+    });
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+  // تبديل القائمة في الموبايل
+  const navToggle = document.querySelector('.nav-toggle');
+  const navList = document.querySelector('.nav-list');
+  if (navToggle && navList) {
+    navToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  }
+});
+  </script>
+  <script>
+   // منع ظهور النافذة المنبثقة عند النقر على زر الصفحة الرئيسية
+document.addEventListener('DOMContentLoaded', function() {
+  const homeLink = document.querySelector('a[href="index.html"]');
+  if (homeLink) {
+    homeLink.addEventListener('click', function(e) {
+      // منع السلوك الافتراضي للرابط
+      e.preventDefault();
+      // الانتقال إلى الصفحة الرئيسية بدون نافذة منبثقة
+      window.location.href = 'index.html';
+    });
+  }
+  // إغلاق القائمة المنسدلة في الأجهزة المحمولة عند النقر على أي رابط
+  const navLinks = document.querySelectorAll('.main-nav a');
+  const navList = document.querySelector('.nav-list');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (navList && navList.classList.contains('active')) {
+        navList.classList.remove('active');
+      }
+    });
+  });
+});
+  </script>
+  <script>
+   // منع فتح الروابط الداخلية في نافذة جديدة
+document.addEventListener('DOMContentLoaded', function() {
+  // جميع الروابط التي تشير إلى صفحات داخلية
+  const internalLinks = document.querySelectorAll('a[href$=".html"]');
+  internalLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      // التأكد من أن الرابط ليس لصفحة خارجية
+      if (!this.href.includes('http') || this.href.includes(window.location.hostname)) {
+        // منع السلوك الافتراضي
+        e.preventDefault();
+        // الانتقال إلى الصفحة في نفس النافذة
+        window.location.href = this.href;
+      }
+    });
+  });
+  // إغلاق القائمة المنسدلة في الأجهزة المحمولة عند النقر على أي رابط
+  const navLinks = document.querySelectorAll('.main-nav a');
+  const navList = document.querySelector('.nav-list');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (navList && navList.classList.contains('active')) {
+        navList.classList.remove('active');
+      }
+    });
+  });
+});
+  </script>
+ </body>
+</html>
