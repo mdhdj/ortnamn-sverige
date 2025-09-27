@@ -1,56 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mdhdj.github.io/ortnamn-sverige/</loc>
-    <lastmod>2025-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://mdhdj.github.io/ortnamn-sverige/sticker.html</loc>
-    <lastmod>2025-04-27</lastmod>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/about.html</loc>
+    <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdhdj.github.io/ortnamn-sverige/patch.html</loc>
-    <lastmod>2025-04-27</lastmod>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/blog-post-1.html</loc>
+    <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdhdj.github.io/ortnamn-sverige/labels.html</loc>
-    <lastmod>2025-04-27</lastmod>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/blog-post-2.html</loc>
+    <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdhdj.github.io/ortnamn-sverige/keychain.html</loc>
-    <lastmod>2025-04-27</lastmod>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/blog-post-3.html</loc>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/blog.html</loc>
+    <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mdhdj.github.io/ortnamn-sverige/button.html</loc>
-    <lastmod>2025-04-27</lastmod>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/google226fafb3c961ad60.html</loc>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/index.html</loc>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/keychain.html</loc>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/labels.html</loc>
+    <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mdhdj.github.io/ortnamn-sverige/magnet.html</loc>
-    <lastmod>2025-04-27</lastmod>
+    <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mdhdj.github.io/ortnamn-sverige/mug.html</loc>
-    <lastmod>2025-04-27</lastmod>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/patch.html</loc>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/policy.html</loc>
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mdhdj.github.io/ortnamn-sverige/sticker.html</loc>
+    <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mdhdj.github.io/ortnamn-sverige/tshirt.html</loc>
-    <lastmod>2025-04-27</lastmod>
+    <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
